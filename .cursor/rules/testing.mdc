@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Test-driven development
+
+## Context
+
+- Applies to all code changes
+- Encourages defining constraints to ensure code changes meets the desired requirements
+
+## Requirements
+
+- Only implement what was asked. Do not include code changes or unit tests for behavior that were not requested explicitly.
+- All proposed code changes should first be implemented in a corresponding test file
+- An accompanying unit test should ensure the behavior of the code changes
+- Once the code changes are in a satisfactory state and pass the unit tests, they may 
+be refactored to an implementation file and the unit test updated
+
